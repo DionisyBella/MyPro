@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Oswald&display=swap');
+
+*{
+    box-sizing:content-box;
+}
+
+body {
+    font-family: 'Oxygen', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.backGroundPage {
+    background: url('img/sheetBackground1.jpg') no-repeat center center/cover;
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    width: calc(100vw + 60px) ;
+    height: calc(100vh + 60px) ;
+    z-index: -1;
+    filter: blur(0px);
+}
+
+h1 {
+    font-family: 'Oxygen', sans-serif;
+    text-align: center;
+    font-size: 37px;
+    color: #00ccff;
+    top: 0;
+    margin: 20px 30px;
+}
+
+.sideNav{
+    display: inline-block;
+    height: 570px;
+    width: 350px;
+    background-color: #fff;
+    opacity: 0.8;
+    margin: 20px 30px;
+    font-family: "Oxygen", sans-serif;
+    text-align: center;
+}
+
+.sideNav div a{
+    display: block;
+    padding-top: 30px;
+    padding: 30px;
+    font-size: 40px;
+    text-decoration: none;
+    color: #000;
+}
+
+.sideNav button {
+    padding: 30px;
+    border: none;
+    background-color: #fff;
+    text-decoration: none;
+    font-size: 40px;
+    /* color: #818181; */
+    color: #000;
+}
+
+.sideNav button:hover {
+    /* color: #f1f1f1; */
+    color: #818181;
+}
+
+/* Info Pages */
+
+.education {
+    height: 700px;
+	width: 450px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	right: -450px;
+	background-color: #333;
+    color: #fff;
+	overflow-x: hidden;
+	padding-top: 60px;
+	transition: 0.5s;
+    opacity: 0.8;
+    font-size: 30px;
+    font-family: 'Oxygen', sans-serif;
+    margin: 10px;
+}
+
+.languages {
+    height: 700px;
+	width: 450px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	right: -450px;
+	background-color: #333;
+    color: #fff;
+	overflow-x: hidden;
+	padding-top: 60px;
+	transition: 0.5s;
+    opacity: 0.8;
+    font-size: 30px;
+    font-family: 'Oxygen', sans-serif;
+    margin: 10px;
+}
+
+.skills {
+    height: 700px;
+	width: 450px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	right: -450px;
+	background-color: #333;
+    color: #fff;
+	overflow-x: hidden;
+	padding-top: 60px;
+	transition: 0.5s;
+    opacity: 0.8;
+    font-size: 30px;
+    font-family: 'Oxygen', sans-serif;
+    margin: 10px;
+}
+
+.workExperince {
+    height: 700px;
+	width: 450px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	right: -450px;
+	background-color: #333;
+    color: #fff;
+	overflow-x: hidden;
+	padding-top: 60px;
+	transition: 0.5s;
+    opacity: 0.8;
+    font-size: 30px;
+    font-family: 'Oxygen', sans-serif;
+    margin: 10px;
+}
+
+/* Info Boxes in Pages */
+
+.infoBoxEducation {
+    position: relative;
+    display: inline-block;
+    height: 70%;
+    width: 50%;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    margin-left: 110px;
+    font-size: 20px;
+    padding: 0px 15px;
+    line-height: 0.5;
+}
+
+.infoBoxLanguages {
+    position: relative;
+    display: inline-block;
+    height: 70%;
+    width: 50%;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    margin-left: 110px;
+    font-size: 15px;
+    padding: 0px 15px;
+}
+
+.infoBoxSkills {
+    position: relative;
+    display: inline-block;
+    height: 70%;
+    width: 50%;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    margin-left: 110px;
+    font-size: 15px;
+    padding: 0px 15px;
+}
+
+.infoBoxWorkExp {
+    position: relative;
+    display: inline-block;
+    height: 70%;
+    width: 50%;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    margin-left: 110px;
+    font-size: 15px;
+    padding: 0px 15px;
+}
+
+.infoBoxEducation p {
+    color: #000;
+    font-weight: bold;
+}
+
+.infoBoxEducation p span {
+    color: #fff;
+}
+
+.infoBoxLanguages p{
+    color: #000;
+    font-size: 20px;
+    padding: 0px 15px;
+    font-weight: bold;
+}
+
+.infoBoxLanguages p span {
+    color: #fff;
+}
+
+.infoBoxSkills p {
+    color: #000;
+    font-weight: bold;
+}
+
+.infoBoxSkills p {
+    font-size: 25px;
+    padding: 0px 15px;
+}
+
+#iconsTxt {
+    font-size: 20px;
+    padding: 0px 15px;
+    color: #fff;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+}
+/* .menu a{
+    font-size: 30px;
+    margin-top: 30px;
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 24px;
+    text-decoration: none;
+}
+
+.container.WorkExperience {
+    height: 750px;
+	width: 500px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	right: -450px;
+	background-color: #333;
+	overflow-x: hidden;
+	padding-top: 60px;
+	transition: 0.5s;
+} */
+ 
+
